@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Dedicato a Sabrina 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ff69b4 0%, #87ceeb 50%, #e0bbff 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #ff1493;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #1e90ff;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+            font-weight: normal;
+        }
+
+        .heart {
+            font-size: 3em;
+            margin: 20px 0;
+            animation: heartBeat 1.5s infinite;
+        }
+
+        @keyframes heartBeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .dedicatoria {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            background: linear-gradient(135deg, #fff0f8 0%, #f0f8ff 100%);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #ff1493;
+            border-right: 5px solid #1e90ff;
+            margin: 30px 0;
+        }
+
+        .firma {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #ff1493;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .decorazione {
+            margin: 20px 0;
+            font-size: 2em;
+            letter-spacing: 10px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #1e90ff;
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .dedicatoria {
+                font-size: 1em;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">💕</div>
+        
+        <h1>Sabrina</h1>
+        <div class="subtitle">💝 Una dedica speciale per te 💝</div>
+
+        <div class="decorazione">✨ ✨ ✨</div>
+
+        <div class="dedicatoria">
+            Ti ho vista ed ho pensato subito che per una volta potrebbe essere quella giusta, ed a quanto pare così è stato. 
+            Quando sto con te il tempo si ferma, mi sento in un loop in cui non vorrei uscire. 
+            Sei la prima persona con cui mi sento apprezzato e vivo. 
+            Ti amo tanto, principessa. ✨
+        </div>
+
+        <div class="decorazione">✨ ✨ ✨</div>
+
+        <div class="firma">
+            Con amore infinito 💕
+        </div>
+
+        <div class="footer">
+            Fatto con ❤️
+        </div>
+    </div>
+</body>
+</html>
